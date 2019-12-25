@@ -1,0 +1,2 @@
+Command to copy ssh to app servers
+#cat ~/.ssh/id_rsa.pub | ssh -i ansible_poc.pem ec2-user@ec2-3-15-207-240.us-east-2.compute.amazonaws.com "cat - >> ~/.ssh/authorized_keys"
